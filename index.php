@@ -37,7 +37,6 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 </head>
-
 <body data-spy="scroll" data-target=".fixed-top">
     <!-- Preloader -->
 	<div class="spinner-wrapper">
@@ -66,6 +65,9 @@
                 <!-- <li class="nav-item">
                     <a class="nav-link page-scroll" href="#about-us">About us <span class="sr-only">(current)</span></a>
                 </li> -->
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#about-us">Über uns</a>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link page-scroll" href="#contact">Contact</a>
                 </li>
@@ -98,14 +100,16 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="text-container text-combination">
-                        <h1 class="h1-mask-2">DANKE FÜR IHRE HILFE </h1>
-                        <h1 class="h1-mask-1">DANKE FÜR IHRE HILFE </h1>
+                        <h1 class="h1-mask-2" style="text-transform: uppercase;">Hand in Hand für die Ukraine</h1>
+                        <h1 class="h1-mask-1" style="text-transform: uppercase;">Hand in Hand für die Ukraine</h1>
+                        <?php echo "This message is from server side." ?>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
     </header> <!-- end of header -->
     <!-- end of header -->
+
 
     <!-- Donate -->
     <div class="basic-3" id="donate">
