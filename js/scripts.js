@@ -3,8 +3,6 @@
    Created: Nov 2019
    Description: Custom JS file
 */
-
-
 (function($) {
     "use strict"; 
 	
@@ -19,7 +17,6 @@
 		}
 		hidePreloader();
 	});
-
 	
 	/* Navbar Scripts */
 	// jQuery to collapse the navbar on scroll

@@ -14,7 +14,7 @@ Table Of Contents:
 05. Registration
 06. Partners
 07. Instructor
-08. Description
+08. About us
 09. Donate
 10. Details Lightbox
 11. Video
@@ -46,6 +46,7 @@ body,
 html {
     width: 100%;
 	height: 100%;
+	scroll-behavior: smooth;
 }
 
 body, p {
@@ -98,7 +99,6 @@ h6 {
 .testimonial-text {
 	font-style: italic;
 }
-
 .testimonial-author {
 	font-weight: 700;
 	font-size: 1rem;
@@ -127,6 +127,28 @@ a:hover {
 	text-decoration: underline;
 }
 
+/* custom classes */
+.orange-text {
+  color: #ffbd50;
+}
+
+.vorstand-image {
+	object-fit: contain;
+	object-position: center;
+}
+
+.basic-2 .text-container {
+	text-align: center;
+}
+
+.vorstand-row-mobile {
+	display: flex;
+}
+
+.vorstand-row {
+	display: none;
+}
+/* custom classes */
 .white {
 	color: #eee;
 }
@@ -771,6 +793,9 @@ input[type='checkbox'] {
 	background-size: cover;
 	text-align: center;
 	min-height: 50%;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .header .credit {
@@ -874,7 +899,7 @@ input[type='checkbox'] {
 
 
 /***************************/
-/*     08. Description     */
+/*     08. About us     */
 /***************************/
 .basic-2 {
 	padding-top: 3.5rem;
@@ -1296,49 +1321,30 @@ input[type='checkbox'] {
 
 
 /**************************/
-/*     15. Newsletter     */
+/*     15. Contact     */
 /**************************/
-.form-2 {
-	padding-top: 8.125rem;
-	padding-bottom: 5.75rem;
-	background-color: #fbf9f5;
-}
 
-.form-2 h3 {
-	margin-bottom: 3.25rem;
-	text-align: center;
-}
 
-.form-2 form {
-	margin-bottom: 3rem;
-}
-
-.form-2 .icon-container {
-	text-align: center;
-}
-
-.form-2 .fa-stack {
+.contact-details .fa-stack {
 	width: 2em;
-	margin-bottom: 0.75rem;
-	margin-right: 0.375rem;
 	font-size: 1.5rem;
 }
 
-.form-2 .fa-stack .fa-stack-1x {
+.contact-details .fa-stack .fa-stack-1x {
     color: #333;
 	transition: all 0.2s ease;
 }
 
-.form-2 .fa-stack .fa-stack-2x {
+.contact-details .fa-stack .fa-stack-2x {
 	color: #ffbd50;
 	transition: all 0.2s ease;
 }
 
-.form-2 .fa-stack:hover .fa-stack-1x {
+.contact-details .fa-stack:hover .fa-stack-1x {
 	color: #ffbd50;
 }
 
-.form-2 .fa-stack:hover .fa-stack-2x {
+.contact-details .fa-stack:hover .fa-stack-2x {
     color: #333;
 }
 
@@ -1540,7 +1546,6 @@ a:hover.back-to-top {
 
 .ex-basic-2 {
 	padding-top: 4.75rem;
-	padding-bottom: 4rem;
 	background-color: #fbf9f5;
 }
 
@@ -1675,13 +1680,90 @@ a:hover.back-to-top {
 	margin-top: 3rem;
 }
 
+
+.contact-details {
+	padding-top: 6.125rem;
+	padding-bottom: 5.125rem;
+	background-color: #ffbd50;
+}
+
+.contact-details .text-container {
+	margin-bottom: 3rem;
+}
+
+.contact-details h2 {
+	margin-bottom: 1.125rem;
+}
+
+.contact-details p {
+	color: #333;
+	margin-bottom: 2rem;
+}
+
+.contact-details h3 {
+	margin-bottom: 0.875rem;
+}
+
+.contact-details .list-unstyled,
+.contact-details .list-unstyled a {
+	color: #333;
+}
+
+.contact-details .list-unstyled .fas {
+	color: #333;
+	font-size: 1rem;
+	line-height: 1.625rem;
+}
+
+.contact-details .list-unstyled .media-body {
+	margin-left: 0.75rem;
+}
+
+.contact-details .list-unstyled .media-body .fas.fa-globe {
+	margin-left: 1.125rem;
+	margin-right: 0.75rem;
+}
+
+.contact-details .form-control-input,
+.contact-details .form-control-textarea {
+	border: 1px solid #ffedd0;
+	background-color: #ffedd0;
+}
+
+.contact-details .form-control-input:hover,
+.contact-details .form-control-textarea:hover {
+	border: 1px solid #fff;
+}
+
+.contact-details .help-block,
+.contact-details .checkbox,
+.contact-details .checkbox a {
+	color: #333;
+}
+
+.contact-details .form-control-submit-button {
+	border: 0.125rem solid #333;
+	background-color: transparent;
+}
+
+.contact-details .form-control-submit-button:hover {
+	border: 0.125rem solid #ffedd0;
+	background-color: #ffedd0;
+}
+
 /*****************************/
 /*     21. Media Queries     */
 /*****************************/	
 /* Min-width width 768px */
 @media (min-width: 768px) {
-	
 	/* General Styles */
+	.vorstand-row-mobile {
+		display: none;
+	}
+
+	.vorstand-row {
+		display: flex;
+	}
 	.p-heading {
 		width: 85%;
 		margin-right: auto;
@@ -1731,7 +1813,7 @@ a:hover.back-to-top {
 	/* end of registration */
 
 
-	/* Description */
+	/* About us */
 	.basic-2 h2 {
 		width: 41rem;
 		margin-right: auto;
@@ -1745,7 +1827,7 @@ a:hover.back-to-top {
 		font-size: 1.375rem;
 		line-height: 3.25rem;
 	}
-	/* end of description */
+	/* end of About us */
 
 
 	/* Newsletter */
@@ -1888,12 +1970,12 @@ a:hover.back-to-top {
 	/* end of instructor */
 
 
-	/* Description */
+	/* About us */
 	.basic-2 {
 		padding-top: 4.5rem;
 		padding-bottom: 3.5rem
 	}
-	/* end of description */
+	/* end of About us */
 
 
 	/* Donate */
@@ -2025,10 +2107,6 @@ a:hover.back-to-top {
 		margin-right: auto;
 		margin-left: auto;
 	}
-
-	.ex-basic-2 {
-		padding-bottom: 5rem;
-	}
 	/* end of extra pages */
 }
 /* end of min-width width 992px */
@@ -2085,7 +2163,7 @@ a:hover.back-to-top {
 	/* end of instructor */
 
 
-	/* Description */
+	/* About us */
 	.basic-2 .list-unstyled.first {
 		margin-right: 1.625rem;
 	}
@@ -2093,7 +2171,7 @@ a:hover.back-to-top {
 	.basic-2 .list-unstyled.second {
 		margin-left: 1.625rem;
 	}
-	/* end of description */
+	/* end of About us */
 
 
 	/* Donate */
@@ -2182,3 +2260,58 @@ a:hover.back-to-top {
 	/* end of extra pages */
 }
 /* end of min-width width 1200px */
+
+.tab-pane.row {
+  display: flex;
+}
+
+.tabbable-panel {
+  padding: 1rem;
+}
+
+.tabbable-line > .nav-tabs {
+  border: none;
+  margin: 0rem;
+  display: flex;
+  flex-direction: column;
+}
+.tabbable-line > .nav-tabs > li {
+  margin-right: 0.125rem;
+  display: block;
+}
+.tabbable-line > .nav-tabs > li > a {
+  border: 0;
+  margin: 0.25rem 0;
+  color: #737373;
+  text-decoration: none;
+  display: block;
+  font-size: 1.25rem;
+}
+.tabbable-line > .nav-tabs > li > a > i {
+  color: #a6a6a6;
+}
+
+.tabbable-line > .nav-tabs > li.open > a, .tabbable-line > .nav-tabs > li:hover > a {
+  border: 0;
+  color: #ffbd50;
+}
+.tabbable-line > .nav-tabs > li.open > a > i, .tabbable-line > .nav-tabs > li:hover > a > i {
+  color: #a6a6a6;
+}
+.tabbable-line > .nav-tabs > li.open .dropdown-menu, .tabbable-line > .nav-tabs > li:hover .dropdown-menu {
+  margin-top: 0rem;
+}
+.tabbable-line > .nav-tabs > li > a.active {
+  color: #ffbd50;
+  position: relative;
+}
+
+.tabbable-line > .tab-content {
+  margin-top: -3px;
+  border: 0;
+  padding: 15px 0;
+}
+.portlet .tabbable-line > .tab-content {
+  padding-bottom: 0;
+}
+
