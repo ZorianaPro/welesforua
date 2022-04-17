@@ -137,17 +137,28 @@ a:hover {
 	object-position: center;
 }
 
-.basic-2 .text-container {
-	text-align: center;
-}
-
 .vorstand-row-mobile {
 	display: flex;
+}
+
+.vorstand-row-mobile .text-container {
+	display: flex;
+	flex-direction: column;
+	align-items: end;
+}
+
+.vorstand-row-mobile .text-container p {
+	margin-bottom: 0;
+}
+
+.vorstand-row-mobile .text-container a {
+	font-size: 0.75rem;
 }
 
 .vorstand-row {
 	display: none;
 }
+
 /* custom classes */
 .white {
 	color: #eee;
@@ -1763,7 +1774,23 @@ a:hover.back-to-top {
 
 	.vorstand-row {
 		display: flex;
+		align-items: end;
 	}
+
+	.vorstand-row .text-container {
+		display: flex;
+		flex-direction: column;
+		align-items: end;
+	}
+
+	.vorstand-row .text-container p {
+		margin-bottom: 0;
+	}
+
+	.vorstand-row .text-container a {
+		font-size: 0.75rem;
+	}
+
 	.p-heading {
 		width: 85%;
 		margin-right: auto;
