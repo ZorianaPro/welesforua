@@ -1330,6 +1330,14 @@ input[type='checkbox'] {
 /**************************/
 /*     15. Contact     */
 /**************************/
+.contact-details .icon-container {
+	display: flex;
+	align-items: center;
+}
+
+.contact-details h3 {
+	margin: 0 1rem 0 0;
+}
 
 
 .contact-details .fa-stack {
@@ -1347,12 +1355,20 @@ input[type='checkbox'] {
 	transition: all 0.2s ease;
 }
 
-.contact-details .fa-stack:hover .fa-stack-1x {
+.contact-details .fa-stack .fa-stack-1x {
 	color: #ffbd50;
 }
 
-.contact-details .fa-stack:hover .fa-stack-2x {
+.contact-details .fa-stack .fa-stack-2x {
     color: #333;
+}
+
+.contact-details .fa-stack:hover .fa-stack-1x {
+	color: #333;
+}
+
+.contact-details .fa-stack:hover .fa-stack-2x {
+    color: #ffbd50;
 }
 
 
@@ -1695,7 +1711,7 @@ a:hover.back-to-top {
 }
 
 .contact-details .text-container {
-	margin-bottom: 3rem;
+	margin-bottom: 2rem;
 }
 
 .contact-details h2 {
@@ -1705,10 +1721,6 @@ a:hover.back-to-top {
 .contact-details p {
 	color: #333;
 	margin-bottom: 2rem;
-}
-
-.contact-details h3 {
-	margin-bottom: 0.875rem;
 }
 
 .contact-details .list-unstyled,
