@@ -817,7 +817,7 @@ input[type='checkbox'] {
 	position: relative;
 	padding-top: 8rem;
 	padding-bottom: 40%;
-	background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.2), rgba(47, 45, 45, 0.1)), url('../images/banner.jpg') center center no-repeat;
+	background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.2), rgba(47, 45, 45, 0.1)), url('../images/banner.webp') center center no-repeat;
 	background-size: cover;
 	text-align: center;
 	min-height: 50%;
@@ -1466,7 +1466,7 @@ input[type='checkbox'] {
 .footer {
 	padding-top: 4.75rem;
 	padding-bottom: 2rem;
-	background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../images/header-background.jpg') center center no-repeat;
+	background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
 	background-size: cover;
 }
 
@@ -1639,7 +1639,7 @@ a:hover.back-to-top {
 .countdown-section {
 	position: relative;
 	padding: 4rem 0;
-	background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.6), rgba(47, 45, 45, 0.1)), url('../images/background.jpg') center center repeat;
+	background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.6), rgba(47, 45, 45, 0.1)), url('../images/background.webp') center center repeat;
 	text-align: center;
 }
 
