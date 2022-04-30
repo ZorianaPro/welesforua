@@ -13,6 +13,16 @@
 		}
 		hidePreloader();
         setTimeout(lazyLoad, 1000);
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-FRWX2E4BW3', {
+            'anonymize_ip': true
+        });
 	});
 	
     // This is "probably" IE9 compatible but will need some fallbacks for IE8
