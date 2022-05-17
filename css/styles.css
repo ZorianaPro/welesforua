@@ -154,27 +154,6 @@ a:hover {
 	object-position: center;
 }
 
-.vorstand-row-mobile {
-	display: flex;
-}
-
-.vorstand-row-mobile .text-container {
-	display: flex;
-	flex-direction: column;
-	align-items: end;
-}
-
-.vorstand-row-mobile .text-container p {
-	margin-bottom: 0;
-}
-
-.vorstand-row-mobile .text-container a {
-	font-size: 0.75rem;
-}
-
-.vorstand-row {
-	display: none;
-}
 
 /* custom classes */
 .white {
