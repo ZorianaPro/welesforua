@@ -33,7 +33,7 @@ Colors:
 - Body text - dark gray #555
 ******************************************/
 
-
+@import "./fonts.css";
 /******************************/
 /*     01. General Styles     */
 /******************************/
@@ -46,15 +46,15 @@ html {
 
 body, p {
 	color: #555; 
-	font: 400 1rem/1.625rem "Montserrat", sans-serif;
+	font: 400 1rem/1.625rem "Montserrat-Regular", sans-serif;
 }
 
 .p-large {
-	font: 400 1.125rem/1.75rem "Montserrat", sans-serif;
+	font: 400 1.125rem/1.75rem "Montserrat-Regular", sans-serif;
 }
 
 .p-small {
-	font: 400 0.875rem/1.5rem "Montserrat", sans-serif;
+	font: 400 0.875rem/1.5rem "Montserrat-Regular", sans-serif;
 }
 
 .p-heading {
@@ -63,32 +63,32 @@ body, p {
 
 h1 {
 	color: #333;
-	font: 700 2.75rem/3.375rem "Montserrat", sans-serif;
+	font: 700 2.75rem/3.375rem "Montserrat-Bold", sans-serif;
 }
 
 h2 {
 	color: #333;
-	font: 700 2.25rem/2.875rem "Montserrat", sans-serif;
+	font: 700 2.25rem/2.875rem "Montserrat-Bold", sans-serif;
 }
 
 h3 {
 	color: #333;
-	font: 700 1.625rem/2.125rem "Montserrat", sans-serif;
+	font: 700 1.625rem/2.125rem "Montserrat-Bold", sans-serif;
 }
 
 h4 {
 	color: #333;
-	font: 700 1.25rem/1.875rem "Montserrat", sans-serif;
+	font: 700 1.25rem/1.875rem "Montserrat-Bold", sans-serif;
 }
 
 h5 {
 	color: #333;
-	font: 700 1.125rem/1.75rem "Montserrat", sans-serif;
+	font: 700 1.125rem/1.75rem "Montserrat-Bold", sans-serif;
 }
 
 h6 {
 	color: #333;
-	font: 700 1rem/1.625rem "Montserrat", sans-serif;
+	font: 700 1rem/1.625rem "Montserrat-Bold", sans-serif;
 }
 
 .testimonial-text {
@@ -167,7 +167,7 @@ a:hover {
 	border-radius: 2rem;
 	background-color: #ffbd50;
 	color: #333;
-	font: 600 0.875rem/0 "Montserrat", sans-serif;
+	font: 600 0.875rem/0 "Montserrat-SemiBold", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
@@ -186,7 +186,7 @@ a:hover {
 	border-radius: 2rem;
 	background-color: #ffbd50;
 	color: #333;
-	font: 600 0.875rem/0 "Montserrat", sans-serif;
+	font: 600 0.875rem/0 "Montserrat-SemiBold", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
@@ -205,7 +205,7 @@ a:hover {
 	border-radius: 2rem;
 	background-color: transparent;
 	color: #333;
-	font: 600 0.875rem/0 "Montserrat", sans-serif;
+	font: 600 0.875rem/0 "Montserrat-SemiBold", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
@@ -224,7 +224,7 @@ a:hover {
 	border-radius: 2rem;
 	background-color: transparent;
 	color: #333;
-	font: 600 0.875rem/0 "Montserrat", sans-serif;
+	font: 600 0.875rem/0 "Montserrat-SemiBold", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
@@ -243,7 +243,7 @@ a:hover {
 	border-radius: 2rem;
 	background-color: transparent;
 	color: #333;
-	font: 600 0.875rem/0 "Montserrat", sans-serif;
+	font: 600 0.875rem/0 "Montserrat-SemiBold", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
@@ -274,7 +274,7 @@ a:hover {
 	left: 1.375rem;
 	color: #555;
 	opacity: 1;
-	font: 400 0.875rem/1.375rem "Montserrat", sans-serif;
+	font: 400 0.875rem/1.375rem "Montserrat-Regular", sans-serif;
 	cursor: text;
 	transition: all 0.2s ease;
 }
@@ -307,7 +307,7 @@ a:hover {
 	border-radius: 0.25rem;
 	background-color: #fff;
 	color: #555;
-	font: 400 0.875rem/1.875rem "Montserrat", sans-serif;
+	font: 400 0.875rem/1.875rem "Montserrat-Regular", sans-serif;
 	transition: all 0.2s;
 	-webkit-appearance: none; /* removes inner shadow on form inputs on ios safari */
 }
@@ -361,7 +361,7 @@ select::-ms-expand {
 	border-radius: 0.25rem;
 	background-color: #fff;
 	color: #555;
-	font: 400 0.875rem/1.75rem "Montserrat", sans-serif;
+	font: 400 0.875rem/1.75rem "Montserrat-Regular", sans-serif;
 	transition: all 0.2s;
 }
 
@@ -403,7 +403,7 @@ input[type='checkbox'] {
 	border-radius: 1.5rem;
 	background-color: #ffbd50;
 	color: #333;
-	font: 600 0.875rem/0 "Montserrat", sans-serif;
+	font: 600 0.875rem/0 "Montserrat-SemiBold", sans-serif;
 	cursor: pointer;
 	transition: all 0.2s;
 }
@@ -670,7 +670,7 @@ input[type='checkbox'] {
 .navbar-custom {
 	background-color: #fff;
 	box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.04);
-	font: 600 0.875rem/0.875rem "Montserrat", sans-serif;
+	font: 600 0.875rem/0.875rem "Montserrat-SemiBold", sans-serif;
 	transition: all 0.2s;
 }
 
@@ -683,7 +683,7 @@ input[type='checkbox'] {
 }
 
 .navbar-custom .navbar-brand.logo-text {
-	font: italic 600 2rem/1.5rem "Montserrat", sans-serif;
+	font: italic 600 2rem/1.5rem "Montserrat-SemiBold", sans-serif;
 	color: #ffbd50;
 	text-decoration: none;
 }
@@ -743,7 +743,7 @@ input[type='checkbox'] {
 }
 
 .navbar-custom .dropdown-item .item-text {
-	font: 600 0.875rem/0.875rem "Montserrat", sans-serif;
+	font: 600 0.875rem/0.875rem "Montserrat-SemiBold", sans-serif;
 }
 
 .navbar-custom .dropdown-item:hover .item-text {
