@@ -1696,6 +1696,10 @@ a:hover.back-to-top {
 	margin-top: 3rem;
 }
 
+.page-media .row h1 {
+	word-break: break-all;
+}
+
 
 .contact-details {
 	padding-top: 6.125rem;
