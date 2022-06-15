@@ -2466,3 +2466,7 @@ a:hover.back-to-top {
   bottom: 0;
 } */
 
+.tabbable-panel, b {
+	color: #555; 
+	font: 700 1rem/1.625rem "Montserrat-Bold", sans-serif;
+}
