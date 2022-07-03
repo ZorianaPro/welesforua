@@ -2513,6 +2513,10 @@ b {
   margin-bottom: 2rem;
 }
 
+.card:hover {
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 60%);
+}
+
 .card.background-th13 {
   background: linear-gradient(
       to bottom right,
