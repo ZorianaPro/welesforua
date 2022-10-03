@@ -770,6 +770,23 @@ input[type="checkbox"] {
   text-decoration: none;
 }
 
+.container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
 .navbar-custom .dropdown-item:hover {
   background-color: #fff;
 }
@@ -975,6 +992,7 @@ input[type="checkbox"] {
 /************************/
 /*     09. Donate     */
 /************************/
+
 .basic-3 {
   padding-top: 2.75rem;
   padding-bottom: 4rem;
@@ -1858,9 +1876,13 @@ a:hover.back-to-top {
     display: flex;
     align-items: center;
   }
+
+  .direction-h1 h1 {
+
+  }
   
   .header .header-countdown {
-    padding-top: 2rem;
+    padding-top: 5rem;
   }
 
   .header .btn-solid-lg {
@@ -1917,7 +1939,7 @@ a:hover.back-to-top {
   }
 
   .header .text-container {
-    margin-top: 10rem;
+    margin-top: 6rem;
   }
 
   .header h1 {
@@ -2462,7 +2484,7 @@ a:hover.back-to-top {
   width: 100%;
   height: 0;
   border-radius: 50%;
-  background-color: #1369ce;
+  background-color: #0057b7;
   position: absolute;
   bottom: 135%;
   right: 0;
